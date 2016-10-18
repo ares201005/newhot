@@ -1,0 +1,19 @@
+$plasmon namelist:
+nst is the number of states of the nanoparticle
+mscoup is coupling between the metallic nanoparticle and semiconductor, which is taken as a parameter
+eps_coup is electron-plasmon coupling in the metallic nanoparticle
+
+barirer_e, barrier_h are barrier height for electron/hole, which are taken as half of "onesite" in system namelist
+
+$system namelist:
+the onsite is the energy gap of the two-level system of semiconductor (I model the semiconductor as a two-level system, hence, ns=2 
+is used in this namelist)
+elecoup is the line-with of self-energy due to coupling to electrodes, 
+
+$voltage namelist
+ampl ampr: left, right bias; ampg is not used.
+
+$photon namelist
+phfreq photon frequency
+
+
